@@ -346,7 +346,7 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 Ore(STAINED_CLAY:15,35,100,100.0,0,256,OBSIDIAN)
-Ore(COAL_BLOCK,6,100,100.0,0,256,OBSIDIAN)
+Ore(COAL_BLOCK,20,100,100.0,0,256,OBSIDIAN)
 IceSpike(OBSIDIAN,HugeSpike,3,1.66,60,128,OBSIDIAN)
 IceSpike(OBSIDIAN,SmallSpike,3,98.33,60,128,OBSIDIAN)
 IceSpike(OBSIDIAN,Basement,2,100.0,60,128,OBSIDIAN)

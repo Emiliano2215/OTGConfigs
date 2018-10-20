@@ -218,7 +218,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (SANDSTONE,SAND:1,60,127)
+ReplacedBlocks: (SANDSTONE,SAND:1,40,127)
 
 ################################
 # Water / Lava & Frozen States #
@@ -350,8 +350,7 @@ Grass(DeadBush,NotGrouped,4,100.0,SAND:1)
 UnderGroundLake(25,60,2,5.0,0,50)
 Liquid(LAVA,10,100.0,8,256,NETHERRACK)
 Liquid(LAVA,10,100.0,8,256,SAND:1)
-CustomStructure(LavaFountain,100.0,LavaFountainOrnate,100.0,NetherClaw,100.0,NetherCottage,100.0,NetherTemple,100.0,WitherTemple,100.0)
-Cactus(CACTUS,3,10.0,62,90,SAND:1)
+Cactus(CACTUS,4,100.0,62,90,SAND:1)
 CustomObject(UseWorld)
 
 #######################################################################

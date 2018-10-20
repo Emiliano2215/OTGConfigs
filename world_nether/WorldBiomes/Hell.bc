@@ -341,8 +341,12 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 Ore(SOUL_SAND,32,30,50.0,0,128,NETHERRACK)
+Ore(GRAVEL,50,30,50.0,70,128,NETHERRACK)
 Plant(FIRE,6,100.0,32,127,NETHERRACK)
 SmallLake(LAVA,2,1.0,8,120)
+SurfacePatch(MAGMA,AIR,62,63,NETHERRACK)
+SmallLake(MAGMA,3,10.0,64,120)
+SurfacePatch(LAVA,AIR,64,120,MAGMA)
 CustomObject(UseWorld)
 
 #######################################################################

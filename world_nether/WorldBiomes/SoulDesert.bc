@@ -197,7 +197,7 @@ StoneBlock: NETHERRACK
 SurfaceBlock: SOUL_SAND
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: NETHERRACK
+GroundBlock: SOUL_SAND
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -346,12 +346,13 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 Plant(NETHER_WARTS,16,100.0,32,127,SOUL_SAND)
-Plant(FIRE,16,100.0,32,127,SOUL_SAND)
 SmallLake(LAVA,2,1.0,8,120)
-Grass(DeadBush,NotGrouped,4,100.0,SOUL_SAND)
+Grass(RedMushroom,NotGrouped,4,50.0,SOUL_SAND)
+Grass(BrownMushroom,NotGrouped,4,50.0,SOUL_SAND)
 UnderGroundLake(25,60,2,5.0,0,50)
 Liquid(LAVA,10,100.0,8,256,NETHERRACK)
 Liquid(LAVA,10,100.0,8,256,SOUL_SAND)
+SurfacePatch(MAGMA,AIR,62,63,SOUL_SAND)
 CustomObject(UseWorld)
 
 #######################################################################

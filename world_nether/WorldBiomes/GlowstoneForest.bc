@@ -346,9 +346,9 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomObject(UseWorld)
-Tree(10,GlowstoneTreeSmallA,30,GlowstoneTreeSmallB,30,GlowstoneTreeMediumA,20,GlowstoneTreeLargeA,10)
-Plant(RedMushroom,1,50.0,0,256,MYCEL)
-Plant(BrownMushroom,3,50.0,0,256,MYCEL)
+Tree(10,GlowstoneTreeSmallA,30,GlowstoneTreeSmallB,30,GlowstoneTreeMediumA,20,GlowstoneTreeLargeA,10,HugeMushroom,30)
+Plant(RedMushroom,3,100.0,50,128,MYCEL)
+Plant(BrownMushroom,3,100.0,50,128,MYCEL)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

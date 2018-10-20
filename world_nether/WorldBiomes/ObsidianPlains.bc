@@ -354,6 +354,8 @@ CustomObject(UseWorld)
 SmallLake(LAVA,2,1.0,8,256)
 Liquid(LAVA,10,100.0,8,256,OBSIDIAN)
 Liquid(LAVA,10,100.0,8,256,NETHERRACK)
+SmallLake(MAGMA,2,10.0,64,90)
+SurfacePatch(LAVA,AIR,64,90,MAGMA)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

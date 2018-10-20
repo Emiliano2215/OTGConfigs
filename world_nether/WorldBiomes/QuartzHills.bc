@@ -347,11 +347,13 @@ FoliageColorIsMultiplier: true
 
 Ore(QUARTZ_ORE,42,26,50.0,0,255,NETHERRACK)
 Ore(QUARTZ_BLOCK,6,6,25.0,0,50,NETHERRACK)
+Ore(GRAVEL,50,30,50.0,70,128,NETHERRACK)
 Plant(FIRE,6,100.0,32,127,NETHERRACK)
 SmallLake(LAVA,2,10.0,8,80)
 SmallLake(LAVA,2,30.0,80,100)
-SmallLake(LAVA,2,100.0,100,256)
-Plant(LAVA,6,100.0,90,255,NETHERRACK)
+SmallLake(MAGMA,3,100.0,64,120)
+SurfacePatch(LAVA,AIR,64,120,MAGMA)
+Plant(LAVA,2,30.0,90,255,NETHERRACK)
 CustomObject(UseWorld)
 
 #######################################################################

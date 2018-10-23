@@ -41,7 +41,7 @@ BiomeSize: 2
 #   50 rarity mean 1/11 chance than other
 # For isle biomes see the BiomeRarityWhenIsle setting below.
 # Doesn`t work on Ocean and River (frozen versions too) biomes when not added as normal biome.
-BiomeRarity: 90
+BiomeRarity: 98
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
@@ -104,7 +104,7 @@ BiomeSizeWhenBorder: 2
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 1.0
+BiomeHeight: 2.05
 
 # Biome volatility.
 BiomeVolatility: 0.5
@@ -125,14 +125,14 @@ MaxAverageDepth: 0.0
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: 0.0
+Volatility1: 0.25
 
-Volatility2: 0.0
+Volatility2: -0.05
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
-VolatilityWeight1: 0.5
+VolatilityWeight1: 5.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 5.45
 
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
@@ -347,12 +347,12 @@ FoliageColorIsMultiplier: true
 
 Ore(QUARTZ_ORE,42,26,50.0,0,255,NETHERRACK)
 Ore(QUARTZ_BLOCK,6,6,25.0,0,50,NETHERRACK)
-Ore(GRAVEL,50,30,50.0,70,128,NETHERRACK)
-Plant(FIRE,6,100.0,32,127,NETHERRACK)
+Ore(GRAVEL,50,30,50.0,70,180,NETHERRACK)
+Plant(FIRE,6,100.0,32,180,NETHERRACK)
 SmallLake(LAVA,2,10.0,8,80)
 SmallLake(LAVA,2,30.0,80,100)
 SmallLake(MAGMA,3,100.0,64,120)
-SurfacePatch(LAVA,AIR,64,120,MAGMA)
+SurfacePatch(LAVA,AIR,64,180,MAGMA)
 Plant(LAVA,2,30.0,90,255,NETHERRACK)
 CustomObject(UseWorld)
 

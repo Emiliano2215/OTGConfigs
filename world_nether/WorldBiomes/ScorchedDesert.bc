@@ -50,7 +50,7 @@ BiomeColor: #000000
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Desert
+ReplaceToBiomeName: Taiga
 
 ####################
 # Isle biomes only #
@@ -104,7 +104,7 @@ BiomeSizeWhenBorder: 4
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 0.125
+BiomeHeight: 0.82
 
 # Biome volatility.
 BiomeVolatility: 0.05
@@ -194,10 +194,10 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: NETHERRACK
 
 # Surface block, usually GRASS.
-SurfaceBlock: SAND:1
+SurfaceBlock: NETHERRACK
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: SAND:1
+GroundBlock: NETHERRACK
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -218,7 +218,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (SANDSTONE,SAND:1,40,127)
+ReplacedBlocks: (NETHERRACK,minecraft:concrete_powder:15,60,64),(NETHERRACK,minecraft:concrete_powder:7,65,66),(NETHERRACK,minecraft:concrete_powder:8,67,68),(NETHERRACK,minecraft:concrete_powder:7,69,70),(NETHERRACK,minecraft:concrete_powder,71,72),(NETHERRACK,minecraft:concrete_powder:8,73,74),(NETHERRACK,minecraft:concrete_powder:7,75,77),(NETHERRACK,minecraft:concrete_powder:15,78,80),(NETHERRACK,minecraft:concrete_powder:7,81,83),(NETHERRACK,minecraft:concrete_powder:15,84,86),(NETHERRACK,minecraft:concrete_powder,87,88)
 
 ################################
 # Water / Lava & Frozen States #
@@ -345,13 +345,13 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-SmallLake(LAVA,2,1.0,8,120)
-Grass(DeadBush,NotGrouped,4,100.0,SAND:1)
-UnderGroundLake(25,60,2,5.0,0,50)
-Liquid(LAVA,10,100.0,8,256,NETHERRACK)
-Liquid(LAVA,10,100.0,8,256,SAND:1)
-Cactus(CACTUS,4,100.0,62,90,SAND:1)
 CustomObject(UseWorld)
+SmallLake(LAVA,2,1.0,8,60)
+Liquid(LAVA,10,100.0,8,60,NETHERRACK)
+SmallLake(minecraft:concrete_powder,1,5.0,80,95)
+SmallLake(minecraft:concrete_powder:7,1,10.0,80,95)
+SmallLake(minecraft:concrete_powder:8,1,5.0,80,95)
+SmallLake(minecraft:concrete_powder:15,3,10.0,80,95)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

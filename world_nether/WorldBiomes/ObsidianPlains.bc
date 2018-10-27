@@ -351,6 +351,8 @@ Ore(COAL_BLOCK,20,100,100.0,0,256,OBSIDIAN)
 IceSpike(OBSIDIAN,HugeSpike,3,1.66,60,128,OBSIDIAN)
 IceSpike(OBSIDIAN,SmallSpike,3,98.33,60,128,OBSIDIAN)
 IceSpike(OBSIDIAN,Basement,2,100.0,60,128,OBSIDIAN)
+SmallLake(MAGMA,2,50.0,60,70)
+SurfacePatch(LAVA,AIR,60,70,MAGMA)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -218,7 +218,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (AIR,LAVA,1,6),(NETHERRACK,minecraft:concrete_powder:15,60,64),(NETHERRACK,minecraft:concrete_powder:7,65,66),(NETHERRACK,minecraft:concrete_powder:8,67,68),(NETHERRACK,minecraft:concrete_powder:7,69,70),(NETHERRACK,minecraft:concrete_powder,71,72),(NETHERRACK,minecraft:concrete_powder:8,73,74),(NETHERRACK,minecraft:concrete_powder:7,75,77),(NETHERRACK,minecraft:concrete_powder:15,78,80),(NETHERRACK,minecraft:concrete_powder:7,81,83),(NETHERRACK,minecraft:concrete_powder:15,84,86),(NETHERRACK,minecraft:concrete_powder,87,88)
+ReplacedBlocks: (AIR,LAVA,1,6),(LAVA,NETHERRACK,60,96),(FIRE,AIR,60,96),(NETHERRACK,minecraft:concrete_powder:15,60,64),(NETHERRACK,minecraft:concrete_powder:7,65,66),(NETHERRACK,minecraft:concrete_powder:8,67,68),(NETHERRACK,minecraft:concrete_powder:7,69,70),(NETHERRACK,minecraft:concrete_powder,71,72),(NETHERRACK,minecraft:concrete_powder:8,73,74),(NETHERRACK,minecraft:concrete_powder:7,75,77),(NETHERRACK,minecraft:concrete_powder:15,78,80),(NETHERRACK,minecraft:concrete_powder:7,81,83),(NETHERRACK,minecraft:concrete_powder:15,84,86),(NETHERRACK,minecraft:concrete_powder,87,88)
 
 ################################
 # Water / Lava & Frozen States #

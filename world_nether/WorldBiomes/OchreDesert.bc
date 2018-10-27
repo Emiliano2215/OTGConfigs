@@ -8,7 +8,7 @@
 # This should be the value of the biomeConfig you wish to extend.
 # The extended config will be loaded, at which point the configs included below
 # will overwrite any configs loaded from the extended config.
-BiomeExtends: 
+BiomeExtends: OverlaidNetherrackResources
 
 # When set to true, all resources of the parent biome (if any) will be copied
 # to the resources queue of this biome. If a resource in the parent biome looks
@@ -218,7 +218,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (NETHERRACK,minecraft:concrete_powder:14,60,62),(NETHERRACK,minecraft:concrete_powder:12,63,64),(NETHERRACK,minecraft:concrete_powder:1,65,67),(NETHERRACK,minecraft:concrete_powder:4,68,69),(NETHERRACK,minecraft:concrete_powder:12,70,71),(NETHERRACK,minecraft:concrete_powder,72,73),(NETHERRACK,minecraft:concrete_powder:12,74,75),(NETHERRACK,minecraft:concrete_powder:14,76,77),(NETHERRACK,minecraft:concrete_powder:4,78,80),(NETHERRACK,minecraft:concrete_powder:1,81,82),(NETHERRACK,minecraft:concrete_powder:14,83,83),(NETHERRACK,minecraft:concrete_powder,84,85),(NETHERRACK,minecraft:concrete_powder:12,86,87),(NETHERRACK,minecraft:concrete_powder,88,90),(NETHERRACK,minecraft:concrete_powder:12,91,93),(NETHERRACK,minecraft:concrete_powder:14,94,95),(NETHERRACK,minecraft:concrete_powder:1,96,98),(NETHERRACK,minecraft:concrete_powder:12,99,99),(NETHERRACK,minecraft:concrete_powder:4,100,101)
+ReplacedBlocks: (AIR,LAVA,1,6),(NETHERRACK,minecraft:concrete_powder:14,60,62),(NETHERRACK,minecraft:concrete_powder:12,63,64),(NETHERRACK,minecraft:concrete_powder:1,65,67),(NETHERRACK,minecraft:concrete_powder:4,68,69),(NETHERRACK,minecraft:concrete_powder:12,70,71),(NETHERRACK,minecraft:concrete_powder,72,73),(NETHERRACK,minecraft:concrete_powder:12,74,75),(NETHERRACK,minecraft:concrete_powder:14,76,77),(NETHERRACK,minecraft:concrete_powder:4,78,80),(NETHERRACK,minecraft:concrete_powder:1,81,82),(NETHERRACK,minecraft:concrete_powder:14,83,83),(NETHERRACK,minecraft:concrete_powder,84,85),(NETHERRACK,minecraft:concrete_powder:12,86,87),(NETHERRACK,minecraft:concrete_powder,88,90),(NETHERRACK,minecraft:concrete_powder:12,91,93),(NETHERRACK,minecraft:concrete_powder:14,94,95),(NETHERRACK,minecraft:concrete_powder:1,96,98),(NETHERRACK,minecraft:concrete_powder:12,99,99),(NETHERRACK,minecraft:concrete_powder:4,100,101)
 
 ################################
 # Water / Lava & Frozen States #
@@ -345,11 +345,9 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-SmallLake(LAVA,2,1.0,8,60)
+CustomObject(UseWorld)
 Grass(BrownMushroom,NotGrouped,1,100.0,minecraft:concrete_powder)
 Grass(RedMushroom,NotGrouped,1,100.0,minecraft:concrete_powder)
-Liquid(LAVA,10,100.0,8,60,NETHERRACK)
-CustomObject(UseWorld)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -8,7 +8,7 @@
 # This should be the value of the biomeConfig you wish to extend.
 # The extended config will be loaded, at which point the configs included below
 # will overwrite any configs loaded from the extended config.
-BiomeExtends: 
+BiomeExtends: NetherrackOnlyResources
 
 # When set to true, all resources of the parent biome (if any) will be copied
 # to the resources queue of this biome. If a resource in the parent biome looks
@@ -218,7 +218,8 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: None
+ReplacedBlocks: (AIR,LAVA,1,6)
+
 
 ################################
 # Water / Lava & Frozen States #
@@ -345,15 +346,6 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Ore(QUARTZ_ORE,42,26,50.0,0,255,NETHERRACK)
-Ore(QUARTZ_BLOCK,6,6,25.0,0,50,NETHERRACK)
-Ore(GRAVEL,50,30,50.0,70,180,NETHERRACK)
-Plant(FIRE,6,100.0,32,180,NETHERRACK)
-SmallLake(LAVA,2,10.0,8,80)
-SmallLake(LAVA,2,30.0,80,100)
-SmallLake(MAGMA,3,100.0,64,120)
-SurfacePatch(LAVA,AIR,64,180,MAGMA)
-Plant(LAVA,2,30.0,90,255,NETHERRACK)
 CustomObject(UseWorld)
 
 #######################################################################

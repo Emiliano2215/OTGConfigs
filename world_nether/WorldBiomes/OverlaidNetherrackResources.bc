@@ -8,7 +8,7 @@
 # This should be the value of the biomeConfig you wish to extend.
 # The extended config will be loaded, at which point the configs included below
 # will overwrite any configs loaded from the extended config.
-BiomeExtends: OverlaidNetherrackResources
+BiomeExtends: 
 
 # When set to true, all resources of the parent biome (if any) will be copied
 # to the resources queue of this biome. If a resource in the parent biome looks
@@ -33,7 +33,7 @@ ResourceInheritance: true
 #   Isle biomes:   BiomeSizeWhenIsle (see below)
 #   Border biomes: BiomeSizeWhenBorder (see below)
 #   River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 3
+BiomeSize: 2
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -45,12 +45,12 @@ BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
-BiomeColor: #D94515
+BiomeColor: #660000
 
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Mesa
+ReplaceToBiomeName: Jungle
 
 ####################
 # Isle biomes only #
@@ -67,7 +67,7 @@ IsleInBiome:
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenIsle: 4
+BiomeSizeWhenIsle: 2
 
 # Rarity of this biome when spawned as an isle biome in BiomeMode: Normal.
 BiomeRarityWhenIsle: 100
@@ -92,7 +92,7 @@ NotBorderNear:
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* borders. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenBorder number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenBorder: 4
+BiomeSizeWhenBorder: 2
 
 
 #######################################################################
@@ -104,16 +104,16 @@ BiomeSizeWhenBorder: 4
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 2.5
+BiomeHeight: 0.3
 
 # Biome volatility.
-BiomeVolatility: 0.5
+BiomeVolatility: 0.2
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 3
+SmoothRadius: 2
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -125,14 +125,14 @@ MaxAverageDepth: 0.0
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: -10.0
+Volatility1: 0.0
 
-Volatility2: -7.5
+Volatility2: 0.0
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
-VolatilityWeight1: 2.5
+VolatilityWeight1: 0.5
 
-VolatilityWeight2: 2.45
+VolatilityWeight2: 0.45
 
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
@@ -194,10 +194,10 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: NETHERRACK
 
 # Surface block, usually GRASS.
-SurfaceBlock: SAND
+SurfaceBlock: NETHERRACK
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: STAINED_CLAY
+GroundBlock: NETHERRACK
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -212,7 +212,7 @@ GroundBlock: STAINED_CLAY
 
 # Alternatively, you can use Mesa, MesaForest or MesaBryce to get blocks
 # like the blocks found in the Mesa biomes.
-SurfaceAndGroundControl: MesaBryce
+SurfaceAndGroundControl: 
 
 # Replace Variable: (blockFrom,blockTo[:blockDataTo][,minHeight,maxHeight])
 # Example :
@@ -346,8 +346,18 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomObject(UseWorld)
-Dungeon(8,100.0,0,256)
-Grass(DeadBush,NotGrouped,7,100.0,SAND,HARD_CLAY,STAINED_CLAY)
+UnderGroundLake(25,60,4,50.0,0,40)
+Ore(QUARTZ_ORE,20,30,60.0,0,60,NETHERRACK)
+Ore(QUARTZ_BLOCK,6,50,100.0,0,60,QUARTZ_ORE)
+Ore(MAGMA,12,20,60.0,0,60,NETHERRACK)
+Ore(SOUL_SAND,12,30,60.0,0,60,NETHERRACK)
+Ore(GRAVEL,20,15,60.0,0,60,NETHERRACK)
+Liquid(LAVA,8,100.0,8,128,NETHERRACK)
+Plant(FIRE,6,100.0,8,255,NETHERRACK)
+Plant(NETHER_WARTS,16,100.0,8,255,SOUL_SAND)
+SmallLake(LAVA,2,5.0,8,60)
+SurfacePatch(MAGMA,AIR,62,63,NETHERRACK,SOUL_SAND)
+SurfacePatch(LAVA,AIR,1,61,MAGMA)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -403,7 +413,7 @@ NetherFortressesEnabled: true
 VillageType: disabled
 
 # The mineshaft type in this biome. Can be normal, mesa or disabled.
-MineshaftType: mesa
+MineshaftType: normal
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 # Note that mineshafts will never spawn, regardless of this setting, if 
@@ -478,7 +488,7 @@ SpawnAmbientCreatures: []
 # a mob list from a vanilla biome.
 # NOTE: Only works for biomes with id's under < 255 (non-virtual biomes).
 # For virtual biomes the BiomeDictId is inherited via ReplaceToBiomeName.
-BiomeDictId: 
+BiomeDictId: HOT, DRY, NETHER
 
 # Inherit the internal mobs list of another biome. Inherited mobs can be 
 # overridden using the SpawnMonsters, SpawnCreatures, SpawnWaterCreatures

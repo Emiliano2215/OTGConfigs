@@ -45,7 +45,7 @@ BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
-BiomeColor: #660000
+BiomeColor: #a00000
 
 ####################
 # Isle biomes only #

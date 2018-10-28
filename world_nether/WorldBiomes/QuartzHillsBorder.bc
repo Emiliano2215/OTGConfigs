@@ -45,12 +45,12 @@ BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
-BiomeColor: #DBDB70
+BiomeColor: #FF80e0
 
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Extreme Hills M
+ReplaceToBiomeName: Extreme Hills Edge
 
 ####################
 # Isle biomes only #

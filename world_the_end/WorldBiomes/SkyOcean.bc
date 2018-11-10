@@ -18,9 +18,11 @@ ResourceInheritance: true
 
 BiomeSize: 2
 
-BiomeRarity: 17
+BiomeRarity: 50
 
-BiomeColor: #8080FF
+BiomeColor: #000070
+
+ReplaceToBiomeName: Ocean
 
 ####################
 # Isle biomes only #
@@ -49,9 +51,9 @@ BiomeSizeWhenBorder: 4
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.4
+BiomeHeight: -2.5
 
-BiomeVolatility: 0.17
+BiomeVolatility: 0.1
 
 SmoothRadius: 6
 
@@ -59,9 +61,9 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 2.5
+Volatility1: 0.0
 
-Volatility2: -2.0
+Volatility2: 0.0
 
 VolatilityWeight1: 0.5
 
@@ -105,9 +107,9 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 StoneBlock: ENDER_STONE
 
-SurfaceBlock: ENDER_STONE
+SurfaceBlock: SAND
 
-GroundBlock: ENDER_STONE
+GroundBlock: SAND
 
 SurfaceAndGroundControl: 
 
@@ -159,8 +161,21 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Plant(CHORUS_FLOWER,1,100.0,8,128,ENDER_STONE)
-Grass(CHORUS_FLOWER,Grouped,1,100.0,ENDER_STONE)
+SmallLake(WATER,4,7.0,8,120)
+SmallLake(GRAVEL,5,100.0,0,50)
+SmallLake(CLAY,5,100.0,0,50)
+Ore(SPONGE:1,20,10,50.0,10,50,CLAY,SAND)
+UnderGroundLake(25,60,2,5.0,0,50)
+Dungeon(8,100.0,0,256)
+CustomObject(UseWorld)
+Liquid(WATER,20,100.0,8,256,SAND)
+SurfacePatch(CLAY,AIR,0,40,SAND)
+Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -184,17 +199,17 @@ BiomeObjects:
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StrongholdsEnabled: true
+StrongholdsEnabled: false
 
 WoodLandMansionsEnabled: false
 
-OceanMonumentsEnabled: false
+OceanMonumentsEnabled: true
 
 NetherFortressesEnabled: true
 
 VillageType: disabled
 
-MineshaftType: disabled
+MineshaftType: normal
 
 MineshaftRarity: 1.0
 
@@ -215,7 +230,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: COLD, DRY, END
+BiomeDictId: OCEAN
 
-InheritMobsBiomeName: Sky
+InheritMobsBiomeName: Ocean
 

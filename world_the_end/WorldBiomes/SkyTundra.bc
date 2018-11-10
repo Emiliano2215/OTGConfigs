@@ -18,9 +18,11 @@ ResourceInheritance: true
 
 BiomeSize: 2
 
-BiomeRarity: 17
+BiomeRarity: 25
 
-BiomeColor: #8080FF
+BiomeColor: #FFFFFF
+
+ReplaceToBiomeName: Ice Plains
 
 ####################
 # Isle biomes only #
@@ -49,19 +51,19 @@ BiomeSizeWhenBorder: 4
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.4
+BiomeHeight: 0.7
 
-BiomeVolatility: 0.17
+BiomeVolatility: 0.05
 
-SmoothRadius: 6
+SmoothRadius: 2
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 2.5
+Volatility1: 0.0
 
-Volatility2: -2.0
+Volatility2: 0.0
 
 VolatilityWeight1: 0.5
 
@@ -105,9 +107,9 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 StoneBlock: ENDER_STONE
 
-SurfaceBlock: ENDER_STONE
+SurfaceBlock: SNOW_BLOCK
 
-GroundBlock: ENDER_STONE
+GroundBlock: SNOW_BLOCK
 
 SurfaceAndGroundControl: 
 
@@ -159,8 +161,6 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Plant(CHORUS_FLOWER,1,100.0,8,128,ENDER_STONE)
-Grass(CHORUS_FLOWER,Grouped,1,100.0,ENDER_STONE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

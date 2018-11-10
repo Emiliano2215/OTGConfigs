@@ -18,9 +18,11 @@ ResourceInheritance: true
 
 BiomeSize: 2
 
-BiomeRarity: 17
+BiomeRarity: 25
 
-BiomeColor: #8080FF
+BiomeColor: #A0A0A0
+
+ReplaceToBiomeName: Ice Mountains
 
 ####################
 # Isle biomes only #
@@ -49,9 +51,9 @@ BiomeSizeWhenBorder: 4
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.4
+BiomeHeight: 3.5
 
-BiomeVolatility: 0.17
+BiomeVolatility: 0.15
 
 SmoothRadius: 6
 
@@ -59,13 +61,13 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 2.5
+Volatility1: 0.2
 
-Volatility2: -2.0
+Volatility2: -0.05
 
 VolatilityWeight1: 0.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 1.5
 
 DisableBiomeHeight: false
 
@@ -82,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: 
+RiverBiome: SkyOcean
 
 #######################
 # ImprovedRivers:true #
@@ -103,11 +105,11 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: ENDER_STONE
+StoneBlock: STONE
 
-SurfaceBlock: ENDER_STONE
+SurfaceBlock: STONE
 
-GroundBlock: ENDER_STONE
+GroundBlock: STONE
 
 SurfaceAndGroundControl: 
 
@@ -159,8 +161,6 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Plant(CHORUS_FLOWER,1,100.0,8,128,ENDER_STONE)
-Grass(CHORUS_FLOWER,Grouped,1,100.0,ENDER_STONE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

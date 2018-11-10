@@ -16,21 +16,23 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 2
+BiomeSize: 3
 
-BiomeRarity: 17
+BiomeRarity: 100
 
-BiomeColor: #8080FF
+BiomeColor: #D2FFFF
+
+ReplaceToBiomeName: Ice Plains Spikes
 
 ####################
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome: SkyTundra
 
 BiomeSizeWhenIsle: 4
 
-BiomeRarityWhenIsle: 100
+BiomeRarityWhenIsle: 10
 
 ######################
 # Border biomes only #
@@ -49,9 +51,9 @@ BiomeSizeWhenBorder: 4
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.4
+BiomeHeight: 1.0
 
-BiomeVolatility: 0.17
+BiomeVolatility: 0.2
 
 SmoothRadius: 6
 
@@ -59,13 +61,13 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 2.5
+Volatility1: 0.5
 
-Volatility2: -2.0
+Volatility2: -1.05
 
 VolatilityWeight1: 0.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 1.5
 
 DisableBiomeHeight: false
 
@@ -103,11 +105,11 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: ENDER_STONE
+StoneBlock: PACKED_ICE
 
-SurfaceBlock: ENDER_STONE
+SurfaceBlock: ICE
 
-GroundBlock: ENDER_STONE
+GroundBlock: ICE
 
 SurfaceAndGroundControl: 
 
@@ -159,8 +161,14 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Plant(CHORUS_FLOWER,1,100.0,8,128,ENDER_STONE)
-Grass(CHORUS_FLOWER,Grouped,1,100.0,ENDER_STONE)
+SmallLake(SNOW,5,100.0,30,100)
+SmallLake(PACKED_ICE,5,100.0,30,100)
+SmallLake(ICE,5,100.0,30,100)
+Ore(PACKED_ICE,50,30,50.0,40,100,ICE)
+Ore(SNOW_BLOCK,30,30,50.0,40,100,ICE,PACKED_ICE)
+SurfacePatch(PACKED_ICE,AIR,0,100,ICE,PACKED_ICE)
+IceSpike(ICE,SmallSpike,6,100.0,8,255,ICE,PACKED_ICE)
+IceSpike(PACKED_ICE,HugeSpike,1,20.0,8,255,ICE,PACKED_ICE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

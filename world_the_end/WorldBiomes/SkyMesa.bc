@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 2
+BiomeSize: 3
 
 BiomeRarity: 25
 
@@ -51,7 +51,7 @@ BiomeSizeWhenBorder: 4
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: 1.2
+BiomeHeight: -0.4
 
 BiomeVolatility: 0.05
 
@@ -113,7 +113,7 @@ GroundBlock: ENDER_STONE
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: None
+ReplacedBlocks: (ENDER_STONE,SNOW_BLOCK,40,41),(ENDER_STONE,minecraft:concrete_powder:6,42,43),(ENDER_STONE,minecraft:concrete_powder:10,44,45),(ENDER_STONE,SNOW_BLOCK,46,47),(ENDER_STONE,minecraft:concrete_powder,48,49),(ENDER_STONE,minecraft:concrete_powder:6,50,51),(ENDER_STONE,minecraft:concrete_powder:2,52,53),(ENDER_STONE,minecraft:concrete_powder:10,54,55),(ENDER_STONE,minecraft:concrete_powder:14,56,57),(ENDER_STONE,SNOW_BLOCK,58,59),(ENDER_STONE,minecraft:concrete_powder:6,60,61),(ENDER_STONE,minecraft:concrete_powder:10,62,63),(ENDER_STONE,SNOW_BLOCK,64,65),(ENDER_STONE,minecraft:concrete_powder,66,67),(ENDER_STONE,minecraft:concrete_powder:6,68,69),(ENDER_STONE,minecraft:concrete_powder:2,70,71),(ENDER_STONE,minecraft:concrete_powder:10,72,73),(ENDER_STONE,minecraft:concrete_powder:14,74,75),(ENDER_STONE,SNOW_BLOCK,76,77),(ENDER_STONE,minecraft:concrete_powder:6,78,79),(ENDER_STONE,minecraft:concrete_powder:10,80,81),(ENDER_STONE,SNOW_BLOCK,82,83),(ENDER_STONE,minecraft:concrete_powder,84,85),(ENDER_STONE,minecraft:concrete_powder:6,86,87),(ENDER_STONE,minecraft:concrete_powder:2,88,89)
 
 ################################
 # Water / Lava & Frozen States #

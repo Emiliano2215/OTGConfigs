@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 2
+BiomeSize: 3
 
 BiomeRarity: 50
 
@@ -51,7 +51,7 @@ BiomeSizeWhenBorder: 4
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -2.5
+BiomeHeight: -1.5
 
 BiomeVolatility: 0.1
 
@@ -162,20 +162,20 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 SmallLake(WATER,4,7.0,8,120)
-SmallLake(GRAVEL,5,100.0,0,50)
-SmallLake(CLAY,5,100.0,0,50)
-Ore(SPONGE:1,20,10,50.0,10,50,CLAY,SAND)
-UnderGroundLake(25,60,2,5.0,0,50)
+SmallLake(GRAVEL,5,100.0,0,60)
+SmallLake(CLAY,5,100.0,0,60)
+Ore(SPONGE:1,20,10,50.0,10,60,CLAY,SAND)
+UnderGroundLake(25,60,2,5.0,0,60)
 Dungeon(8,100.0,0,256)
 CustomObject(UseWorld)
 Liquid(WATER,20,100.0,8,256,SAND)
-SurfacePatch(CLAY,AIR,0,40,SAND)
-Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,50,SPONGE)
+SurfacePatch(CLAY,AIR,0,60,SAND)
+Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
+Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -159,11 +159,11 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Plant(CHORUS_FLOWER,1,100.0,8,128,ENDER_STONE)
-Grass(CHORUS_FLOWER,Grouped,1,100.0,ENDER_STONE)
+CustomObject(UseWorld)
 IceSpike(OBSIDIAN,SmallSpike,1,10.0,8,255,STONE,ENDER_STONE)
 IceSpike(OBSIDIAN,HugeSpike,1,10.0,8,255,STONE,ENDER_STONE)
 Boulder(OBSIDIAN,1,10.0,8,255,STONE,ENDER_STONE)
+Tree(2,ChorusA,10,ChorusB,20,ChorusC,30,ChorusD,30,ChorusE,10)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

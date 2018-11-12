@@ -161,6 +161,9 @@ FoliageColorIsMultiplier: true
 
 Plant(CHORUS_FLOWER,1,100.0,8,128,ENDER_STONE)
 Grass(CHORUS_FLOWER,Grouped,1,100.0,ENDER_STONE)
+IceSpike(OBSIDIAN,SmallSpike,1,10.0,8,255,STONE,ENDER_STONE)
+IceSpike(OBSIDIAN,HugeSpike,1,10.0,8,255,STONE,ENDER_STONE)
+Boulder(OBSIDIAN,1,10.0,8,255,STONE,ENDER_STONE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -194,7 +197,7 @@ NetherFortressesEnabled: true
 
 VillageType: disabled
 
-MineshaftType: disabled
+MineshaftType: normal
 
 MineshaftRarity: 1.0
 

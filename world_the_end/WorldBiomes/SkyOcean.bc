@@ -209,7 +209,7 @@ NetherFortressesEnabled: true
 
 VillageType: disabled
 
-MineshaftType: normal
+MineshaftType: disabled
 
 MineshaftRarity: 1.0
 

@@ -113,7 +113,7 @@ GroundBlock: ENDER_STONE
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (ENDER_STONE,CLAY,40,41),(ENDER_STONE,minecraft:concrete_powder:3,42,44),(ENDER_STONE,SNOW_BLOCK,45,46),(ENDER_STONE,CLAY,47,48),(ENDER_STONE,ENDER_STONE,49,50),(ENDER_STONE,minecraft:concrete_powder:11,51,53),(ENDER_STONE,minecraft:concrete_powder:9,54,56),(ENDER_STONE,SNOW_BLOCK,57,58),(ENDER_STONE,minecraft:concrete_powder:13,59,61),(ENDER_STONE,minecraft:concrete_powder:5,62,64),(ENDER_STONE,CLAY,65,66),(ENDER_STONE,minecraft:concrete_powder:3,67,69),(ENDER_STONE,SNOW_BLOCK,70,71),(ENDER_STONE,CLAY,72,73),(ENDER_STONE,ENDER_STONE,74,75),(ENDER_STONE,minecraft:concrete_powder:11,76,78),(ENDER_STONE,minecraft:concrete_powder:9,79,81),(ENDER_STONE,SNOW_BLOCK,82,83),(ENDER_STONE,minecraft:concrete_powder:13,84,86),(ENDER_STONE,minecraft:concrete_powder:5,87,89),(ENDER_STONE,CLAY,90,91)
+ReplacedBlocks: (ENDER_STONE,CLAY,40,41),(ENDER_STONE,minecraft:concrete_powder:3,42,44),(ENDER_STONE,SNOW_BLOCK,45,46),(ENDER_STONE,CLAY,47,48),(ENDER_STONE,minecraft:concrete_powder:11,51,53),(ENDER_STONE,minecraft:concrete_powder:9,54,56),(ENDER_STONE,SNOW_BLOCK,57,58),(ENDER_STONE,minecraft:concrete_powder:13,59,61),(ENDER_STONE,minecraft:concrete_powder:5,62,64),(ENDER_STONE,CLAY,65,66),(ENDER_STONE,minecraft:concrete_powder:3,67,69),(ENDER_STONE,SNOW_BLOCK,70,71),(ENDER_STONE,CLAY,72,73),(ENDER_STONE,minecraft:concrete_powder:11,76,78),(ENDER_STONE,minecraft:concrete_powder:9,79,81),(ENDER_STONE,SNOW_BLOCK,82,83),(ENDER_STONE,minecraft:concrete_powder:13,84,86),(ENDER_STONE,minecraft:concrete_powder:5,87,89),(ENDER_STONE,CLAY,90,91)
 
 ################################
 # Water / Lava & Frozen States #
@@ -192,13 +192,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: true
 
-VillageType: disabled
+VillageType: taiga
 
 MineshaftType: disabled
 
 MineshaftRarity: 1.0
 
-RareBuildingType: disabled
+RareBuildingType: igloo
 
 
 #######################################################################

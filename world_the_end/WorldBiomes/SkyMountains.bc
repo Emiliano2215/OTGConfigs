@@ -113,7 +113,7 @@ GroundBlock: STONE
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: None
+ReplacedBlocks: (STONE,SNOW_BLOCK,114,116),(STONE,PACKED_ICE,117,117),(STONE,SNOW_BLOCK,118,119),(STONE,ICE,120,120),(STONE,SNOW_BLOCK,121,123),(STONE,PACKED_ICE,124,124),(STONE,SNOW_BLOCK,125,127),(STONE,PACKED_ICE,128,128),(STONE,SNOW_BLOCK,129,131),(STONE,ICE,132,132),(STONE,PACKED_ICE,133,134),(STONE,SNOW_BLOCK,135,144)
 
 ################################
 # Water / Lava & Frozen States #
@@ -194,7 +194,7 @@ NetherFortressesEnabled: true
 
 VillageType: disabled
 
-MineshaftType: disabled
+MineshaftType: normal
 
 MineshaftRarity: 1.0
 

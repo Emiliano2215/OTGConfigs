@@ -18,7 +18,7 @@ ResourceInheritance: true
 
 BiomeSize: 3
 
-BiomeRarity: 100
+BiomeRarity: 25
 
 BiomeColor: #D2FFFF
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: Ice Plains Spikes
 # Isle biomes only #
 ####################
 
-IsleInBiome: SkyTundra
+IsleInBiome: 
 
 BiomeSizeWhenIsle: 4
 

@@ -170,12 +170,8 @@ Dungeon(8,100.0,0,256)
 CustomObject(UseWorld)
 Liquid(WATER,20,100.0,8,256,SAND)
 SurfacePatch(CLAY,AIR,0,60,SAND)
-Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
-Boulder(SPONGE:1,10,100.0,10,60,SPONGE)
+Boulder(SPONGE:1,4,50.0,10,60,CLAY)
+Tree(1,SpongeCupA,15,SpongeCupB,20,SpongeCupC,20,SpongeCupD,10)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

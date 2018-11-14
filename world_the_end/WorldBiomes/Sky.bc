@@ -163,7 +163,9 @@ CustomObject(UseWorld)
 IceSpike(OBSIDIAN,SmallSpike,1,10.0,8,255,STONE,ENDER_STONE)
 IceSpike(OBSIDIAN,HugeSpike,1,10.0,8,255,STONE,ENDER_STONE)
 Boulder(OBSIDIAN,1,10.0,8,255,STONE,ENDER_STONE)
-Tree(2,ChorusA,10,ChorusB,20,ChorusC,30,ChorusD,30,ChorusE,10)
+Tree(2,ChorusA,15,ChorusB,15,ChorusC,15)
+Tree(2,ChorusD,15,ChorusE,15)
+Tree(2,ChorusF,15,ChorusG,15)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

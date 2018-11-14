@@ -167,7 +167,9 @@ Boulder(SANDSTONE,5,2.0,50,120,ENDER_STONE)
 Boulder(ENDER_STONE,5,5.0,50,120,ENDER_STONE)
 Boulder(SAND,5,5.0,50,120,ENDER_STONE)
 Well(PURPUR_BLOCK,PURPUR_SLAB,WATER,1,1.25,50,120,ENDER_STONE)
-Tree(1,ChorusA,10,ChorusB,20,ChorusC,30,ChorusD,30,ChorusE,10)
+Tree(1,ChorusA,10,ChorusB,10,ChorusC,10)
+Tree(1,ChorusD,10,ChorusE,10)
+Tree(1,ChorusF,10,ChorusG,10)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

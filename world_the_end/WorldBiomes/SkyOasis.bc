@@ -161,7 +161,6 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-CustomObject(UseWorld)
 SmallLake(WATER,4,100.0,50,80)
 SmallLake(WATER,4,100.0,60,80)
 SmallLake(WATER,4,100.0,70,80)
@@ -171,6 +170,7 @@ Plant(Dandelion,4,100.0,0,256,GRASS,DIRT)
 Grass(Fern,NotGrouped,40,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,40,100.0,GRASS,DIRT)
 Plant(MELON_BLOCK,20,100.0,0,256,GRASS,DIRT)
+CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

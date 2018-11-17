@@ -172,6 +172,7 @@ Liquid(WATER,20,100.0,8,256,SAND)
 SurfacePatch(CLAY,AIR,0,60,SAND)
 Boulder(SPONGE:1,4,50.0,10,60,CLAY)
 Tree(1,SpongeCupA,15,SpongeCupB,20,SpongeCupC,20,SpongeCupD,10)
+CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

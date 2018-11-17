@@ -161,7 +161,6 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-CustomObject(UseWorld)
 SmallLake(WATER,4,7.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,256)
@@ -172,6 +171,7 @@ Boulder(OBSIDIAN,1,10.0,8,255,STONE,ENDER_STONE)
 Tree(2,ChorusA,15,ChorusB,15,ChorusC,15)
 Tree(2,ChorusD,15,ChorusE,15)
 Tree(2,ChorusF,15,ChorusG,15)
+CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

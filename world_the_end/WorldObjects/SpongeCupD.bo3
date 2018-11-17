@@ -426,7 +426,7 @@ BlockCheck(0,-1,0,CLAY)
 # entity and give it custom attributes etc. You can copy the DATA part of a summon command including surrounding 
 # curly braces to a .txt file, for instance for: "/summon Skeleton x y z {DATA}"
 
-Entity(2,5,0,SHULKER,1,{AttachFace:5b,Color:10})
+Entity(2,5,0,SHULKER,1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

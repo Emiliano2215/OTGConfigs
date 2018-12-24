@@ -172,7 +172,7 @@ Ore(DIAMOND_ORE,8,6,100.0,100,200,ENDER_STONE,STONE,STAINED_CLAY)
 Ore(LAPIS_ORE,8,6,100.0,100,200,ENDER_STONE,STONE,STAINED_CLAY)
 Ore(EMERALD_ORE,5,6,100.0,100,200,ENDER_STONE,STONE,STAINED_CLAY)
 
-CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125,EndTowerA,0.4,EndTowerB,0.4,EndTowerC,0.4,EndTowerD,0.4,EndTowerE,0.4,EndTowerF,0.4,EndTowerG,0.4)
+CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125,EndTowerA,0.4,EndTowerB,0.4,EndTowerC,0.4,EndTowerD,0.4,EndTowerE,0.4,EndTowerF,0.4,EndTowerG,0.4,EndWitherCage,8.0)
 SmallLake(WATER,4,7.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,256)

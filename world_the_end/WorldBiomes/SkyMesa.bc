@@ -161,7 +161,7 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125,EndTowerA,0.1,EndTowerB,0.1,EndTowerC,0.1,EndTowerD,0.1,EndTowerE,0.1,EndTowerF,0.1,EndTowerG,0.1)
+CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125,EndTowerA,0.1,EndTowerB,0.1,EndTowerC,0.1,EndTowerD,0.1,EndTowerE,0.1,EndTowerF,0.1,EndTowerG,0.1,EndTempleSmall,0.4)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

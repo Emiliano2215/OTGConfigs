@@ -1,0 +1,10 @@
+{
+  Profession:1,
+  Career:1,
+  Offers:{
+    Recipes:[
+      {buy:{id:emerald,Count:9}, sell:{id:emerald_block,Count:1}, maxUses:9999999}
+    ]
+  }
+}
+

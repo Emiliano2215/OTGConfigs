@@ -1,0 +1,18 @@
+{
+  Profession:1,
+  Career:1,
+  CareerLevel:5,
+  Offers:{
+    Recipes:[
+      {buy:{id:end_stone,Count:64},sell:{id:hardened_clay,Damage:0,Count:32},maxUses:9999999},
+      {buy:{id:end_stone,Count:64},sell:{id:stained_hardened_clay,Damage:0,Count:32},maxUses:9999999},
+      {buy:{id:end_stone,Count:64},sell:{id:stained_hardened_clay,Damage:1,Count:32},maxUses:9999999},
+      {buy:{id:end_stone,Count:64},sell:{id:stained_hardened_clay,Damage:4,Count:32},maxUses:9999999},
+      {buy:{id:end_stone,Count:64},sell:{id:stained_hardened_clay,Damage:8,Count:32},maxUses:9999999},
+      {buy:{id:end_stone,Count:64},sell:{id:stained_hardened_clay,Damage:12,Count:32},maxUses:9999999},
+      {buy:{id:end_stone,Count:64},sell:{id:stained_hardened_clay,Damage:14,Count:32},maxUses:9999999},
+      {buy:{id:ender_pearl,Count:16},buyB:{id:ender_pearl,Count:16},sell:{id:shulker_shell,Count:1},maxUses:9999999}
+    ]
+  }
+}
+

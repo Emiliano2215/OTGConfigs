@@ -348,7 +348,7 @@ FoliageColorIsMultiplier: true
 CustomObject(UseWorld)
 Dungeon(8,100.0,0,256)
 Grass(DeadBush,NotGrouped,7,100.0,SAND,HARD_CLAY,STAINED_CLAY)
-CustomStructure(NetherVillagerPodA,6.0,NetherVillagerPodB,6.0)
+CustomStructure(NetherVillagerPodA,5.0,NetherVillagerPodB,5.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

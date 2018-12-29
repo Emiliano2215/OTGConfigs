@@ -48,7 +48,7 @@ MaxHeight: 256
 
 ExtrudeMode: BottomDown
 
-ExtrudeThroughBlocks: AIR
+ExtrudeThroughBlocks: AIR,DEAD_BUSH,CACTUS,BROWN_MUSHROOM,RED_MUSHROOM
 
 MaxBranchDepth: 10
 

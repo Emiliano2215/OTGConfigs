@@ -348,6 +348,7 @@ FoliageColorIsMultiplier: true
 CustomObject(UseWorld)
 Grass(DeadBush,NotGrouped,4,100.0,SAND:1)
 Cactus(CACTUS,4,100.0,62,90,SAND:1)
+CustomStructure(NetherVillagerPodA,6.0,NetherVillagerPodB,6.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

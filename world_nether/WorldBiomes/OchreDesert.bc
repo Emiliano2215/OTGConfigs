@@ -348,6 +348,7 @@ FoliageColorIsMultiplier: true
 CustomObject(UseWorld)
 Grass(BrownMushroom,NotGrouped,1,100.0,minecraft:concrete_powder)
 Grass(RedMushroom,NotGrouped,1,100.0,minecraft:concrete_powder)
+CustomStructure(NetherVillagerPodA,6.0,NetherVillagerPodB,6.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

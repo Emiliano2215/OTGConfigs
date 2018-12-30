@@ -161,10 +161,10 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Ore(GOLD_ORE,8,25,100.0,5,50,ENDER_STONE,STONE,STAINED_CLAY)
-Ore(DIAMOND_ORE,8,3,100.0,5,32,ENDER_STONE,STONE,STAINED_CLAY)
-Ore(LAPIS_ORE,8,3,100.0,5,32,ENDER_STONE,STONE,STAINED_CLAY)
-Ore(EMERALD_ORE,5,3,100.0,5,32,ENDER_STONE,STONE,STAINED_CLAY)
+Ore(GOLD_ORE,8,18,100.0,5,50,ENDER_STONE,STONE,STAINED_CLAY)
+Ore(DIAMOND_ORE,8,2,100.0,5,32,ENDER_STONE,STONE,STAINED_CLAY)
+Ore(LAPIS_ORE,8,2,100.0,5,32,ENDER_STONE,STONE,STAINED_CLAY)
+Ore(EMERALD_ORE,5,2,100.0,5,32,ENDER_STONE,STONE,STAINED_CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

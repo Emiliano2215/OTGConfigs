@@ -159,8 +159,8 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Ore(GOLD_ORE,8,25,100.0,5,50,ENDER_STONE,STONE,STAINED_CLAY)
-Ore(GOLD_ORE,8,50,100.0,100,200,ENDER_STONE,STONE,STAINED_CLAY)
+Ore(GOLD_ORE,8,18,100.0,5,50,ENDER_STONE,STONE,STAINED_CLAY)
+Ore(GOLD_ORE,8,34,100.0,100,200,ENDER_STONE,STONE,STAINED_CLAY)
 
 CustomStructure(EndShipN,0.125,EndShipS,0.125,EndShipE,0.125,EndShipW,0.125,EndTowerA,0.1,EndTowerB,0.1,EndTowerC,0.1,EndTowerD,0.1,EndTowerE,0.1,EndTowerF,0.1,EndTowerG,0.1,EndEggEnderman,0.1,EndEggEndermite,0.1,EndSpikeSilverfish,0.15)
 IceSpike(OBSIDIAN,SmallSpike,1,10.0,8,255,STONE,ENDER_STONE)

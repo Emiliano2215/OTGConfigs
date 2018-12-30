@@ -10,7 +10,8 @@
       {buy:{id:netherrack,Count:64},sell:{id:stained_hardened_clay,Damage:4,Count:32},maxUses:9999999},
       {buy:{id:netherrack,Count:64},sell:{id:stained_hardened_clay,Damage:8,Count:32},maxUses:9999999},
       {buy:{id:netherrack,Count:64},sell:{id:stained_hardened_clay,Damage:12,Count:32},maxUses:9999999},
-      {buy:{id:netherrack,Count:64},sell:{id:stained_hardened_clay,Damage:14,Count:32},maxUses:9999999}
+      {buy:{id:netherrack,Count:64},sell:{id:stained_hardened_clay,Damage:14,Count:32},maxUses:9999999},
+      {buy:{id:netherrack,Count:64},sell:{id:stained_hardened_clay,Damage:15,Count:32},maxUses:9999999}
     ]
   }
 }

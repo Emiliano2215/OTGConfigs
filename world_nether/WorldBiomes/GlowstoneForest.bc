@@ -349,6 +349,7 @@ CustomObject(UseWorld)
 Tree(10,GlowstoneTreeSmallA,30,GlowstoneTreeSmallB,30,GlowstoneTreeMediumA,20,GlowstoneTreeLargeA,10,HugeMushroom,30)
 Plant(RedMushroom,3,100.0,50,128,MYCEL)
 Plant(BrownMushroom,3,100.0,50,128,MYCEL)
+CustomStructure(NetherGricelTree,5.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

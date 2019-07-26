@@ -341,6 +341,7 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomObject(UseWorld)
+CustomStructure(NetherZoxShip,5.0,NetherVerulCamp,5.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

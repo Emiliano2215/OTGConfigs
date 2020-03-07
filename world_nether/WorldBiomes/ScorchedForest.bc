@@ -351,7 +351,9 @@ SmallLake(minecraft:concrete_powder:7,1,10.0,80,95)
 SmallLake(minecraft:concrete_powder:8,1,5.0,80,95)
 SmallLake(minecraft:concrete_powder:15,3,10.0,80,95)
 Tree(7,BurntTreeLarge,15,BurntTreeSmallA,30,BurntTreeSmallB,30)
-CustomStructure(NetherGricelTree,5.0)
+
+# PvE 24:
+#CustomStructure(NetherGricelTree,5.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
